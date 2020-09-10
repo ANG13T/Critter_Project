@@ -23,7 +23,7 @@ public class Hamster {
     private String name;
 
     @Nationalized
-    private long ownerId;
+    private Long ownerId;
 
     @Nationalized
     private LocalDate birthDate;
@@ -43,5 +43,35 @@ public class Hamster {
         this.name = name;
     }
 
-    public void
+    public void setOwnerId(Long ownerId){
+        this.ownerId = ownerId;
+    }
+
+    public void setBirthDate(LocalDate birthDate){
+        this.birthDate = birthDate;
+    }
+
+    public void setNotes(String notes){
+        this.notes = notes;
+    }
+
+    public String getNotes(){
+        return this.notes;
+    }
+
+    public String getName(){return this.name;}
+
+    public LocalDate getBirthDate(){return this.birthDate;}
+
+    public Long getOwnerId() {
+        return ownerId;
+    }
+
+    public PetType getType() {
+        return type;
+    }
+
+    public Long getId() {
+        return id;
+    }
 }
