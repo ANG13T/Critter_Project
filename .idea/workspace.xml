@@ -23,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797cf33c-6ce0-4e3f-8fab-25b31a9b4c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/entity/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/entity/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/jdnd/course3/critter/repository/ScheduleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
