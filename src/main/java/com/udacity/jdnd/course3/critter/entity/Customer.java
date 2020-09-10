@@ -26,4 +26,44 @@ public class Customer {
     @OneToMany
     @JoinColumn(name = "pet_ids")
     private List<Long> petIds;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public void setPetIds(List<Long> petIds) {
+        this.petIds = petIds;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public List<Long> getPetIds() {
+        return petIds;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
