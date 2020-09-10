@@ -30,4 +30,46 @@ public class Schedule {
     @OneToMany
     @JoinColumn(name = "activities")
     private Set<EmployeeSkill> activities;
+
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public void setDate(LocalDate date){
+        this.date = date;
+    }
+
+    public void setPetIds(List<Long> petIds){
+        this.petIds = petIds;
+    }
+
+    public void setEmployeeIds(List<Long> employeeIds){
+        this.employeeIds = employeeIds;
+    }
+
+    public void setActivities(Set<EmployeeSkill> activities){
+        this.activities = activities;
+    }
+
+    public Long getId(){
+        return this.id;
+    }
+
+    public LocalDate getDate(){
+        return this.date;
+    }
+
+    public List<Long> getPetIds(){
+        return this.petIds;
+    }
+
+    public List<Long> getEmployeeIds(){
+        return this.employeeIds;
+    }
+
+    public Set<EmployeeSkill> getActivities(){
+        return this.activities;
+    }
+
 }

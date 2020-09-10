@@ -30,4 +30,18 @@ public class Hamster {
 
     @Nationalized
     private String notes;
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public void setType(PetType type){
+        this.type = type;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void
 }
